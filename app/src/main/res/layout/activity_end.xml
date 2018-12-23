@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.msi.cv.end">
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#18272f"
+            android:paddingBottom="100dp">
+            <TextView
+                android:id="@+id/sums"
+                android:layout_marginTop="5dp"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textColor="@android:color/white"
+                android:text="Sums."/>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:id="@+id/sums1"
+                android:layout_below="@id/sums"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13dp"
+                android:textColor="@android:color/darker_gray"
+                android:text="I have no experience yet for programming"/>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:id="@+id/sums2"
+                android:layout_below="@id/sums1"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13dp"
+                android:textColor="@android:color/darker_gray"
+                android:text="This is my first time i used to make an application"/>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:id="@+id/sums3"
+                android:layout_below="@id/sums2"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13dp"
+                android:textColor="@android:color/darker_gray"
+                android:text="It's hard and i know i just need to keep going through"/>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:id="@+id/sums4"
+                android:layout_below="@id/sums3"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13dp"
+                android:textColor="@android:color/darker_gray"
+                android:text="And now i did it"/>
+            <LinearLayout
+                android:layout_below="@id/sums4"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp">
+            <Button
+                android:onClick="project"
+                android:text="project"
+                android:textColor="@android:color/white"
+                android:background="@drawable/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/sums4"
+                android:layout_marginRight="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp">
+                <Button
+                    android:onClick="contact"
+                    android:text="contact"
+                    android:background="@drawable/box"
+                    android:textColor="@android:color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_marginTop="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+    <ImageView
+        android:id="@+id/image9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/dd"/>
+            <TextView
+                android:id="@+id/text3"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/image9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Why me?"
+                android:textColor="@android:color/black"
+                android:textSize="24dp"/>
+            <TextView
+                android:id="@+id/text4"
+                android:layout_below="@id/text3"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I know didn't have any experience yet."/>
+            <TextView
+                android:id="@+id/text5"
+                android:layout_below="@id/text4"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="But i will keep to learn."/>
+            <TextView
+                android:id="@+id/text6"
+                android:layout_below="@id/text5"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Try harder."/>
+            <TextView
+                android:id="@+id/text7"
+                android:layout_below="@id/text6"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="And i will keep myself calm against any errors."/>
+            <TextView
+                android:id="@+id/text8"
+                android:layout_below="@id/text7"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No, that was a joke (:"/>
+            <TextView
+                android:textSize="10dp"
+                android:layout_marginTop="25dp"
+                android:id="@+id/text9"
+                android:layout_below="@id/text8"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sincerely Fahrizal A Z Mursalin."/>
+            <TextView
+                android:layout_marginTop="30dp"
+                android:id="@+id/text10"
+                android:layout_below="@id/text9"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=". . ."
+                android:textSize="24dp"
+                android:layout_marginBottom="30dp"/>
+        </RelativeLayout>
+
+    </RelativeLayout>
+</ScrollView>
+</android.support.constraint.ConstraintLayout>
