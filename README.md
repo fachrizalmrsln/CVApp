@@ -1,2 +1,2 @@
 # CVApp
-First android aplication
+My first Android Aplication
